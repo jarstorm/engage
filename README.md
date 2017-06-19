@@ -16,7 +16,7 @@ The rest of the code is the same from the github repo.
 # Back
 I used Spring Boot to create backend project, Spring Data JPA to access the database and MySQL as database.
 
-You need to congigure application-properties with your connection data.
+You need to congigure application.properties with your connection data.
 
 How to compile:
 ```
