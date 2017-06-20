@@ -1,11 +1,19 @@
 # Front
 I changed expenses-controller.js and expenses-content.html
-expenses-controller.js
+
+
+<b>expenses-controller.js</b>
+
+
 I made this change to search the backend service at port 8090:
 ```sql
 var restExpenses = $restalchemy.init({ root: "http://localhost:8090/app/" }).at("expenses");
 ```
-expenses-content.html
+
+
+<b>expenses-content.html</b>
+
+
 I made this change to show the calculated VAT to the user:
 ```html
 <span>VAT: {{newExpense.amount * 0.2 | number:2 | currency:"&pound;"}}</span>
